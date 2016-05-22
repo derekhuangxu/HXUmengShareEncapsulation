@@ -27,6 +27,14 @@
 		65424D551CF0D1230008255A /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65424D481CF0D1230008255A /* UMSnsAccountViewController.xib */; };
 		65424D561CF0D1230008255A /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65424D491CF0D1230008255A /* UMSShareListController.xib */; };
 		65424D571CF0D1230008255A /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65424D4A1CF0D1230008255A /* UMSocialSDKResourcesNew.bundle */; };
+		65424D5E1CF15E280008255A /* share_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65424D591CF15E280008255A /* share_qq@2x.png */; };
+		65424D5F1CF15E280008255A /* share_QQ空间@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65424D5A1CF15E280008255A /* share_QQ空间@2x.png */; };
+		65424D601CF15E280008255A /* share_微信@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65424D5B1CF15E280008255A /* share_微信@2x.png */; };
+		65424D611CF15E280008255A /* share_微博@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65424D5C1CF15E280008255A /* share_微博@2x.png */; };
+		65424D621CF15E280008255A /* share_朋友圈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65424D5D1CF15E280008255A /* share_朋友圈@2x.png */; };
+		65424D6A1CF166D40008255A /* HXShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65424D691CF166D40008255A /* HXShareManager.m */; };
+		65424D6D1CF16B290008255A /* HXShareAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 65424D6C1CF16B290008255A /* HXShareAction.m */; };
+		65424D701CF16B380008255A /* HXShareAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 65424D6F1CF16B380008255A /* HXShareAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +95,18 @@
 		65424D491CF0D1230008255A /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
 		65424D4A1CF0D1230008255A /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
 		65424D4B1CF0D1230008255A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		65424D591CF15E280008255A /* share_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_qq@2x.png"; sourceTree = "<group>"; };
+		65424D5A1CF15E280008255A /* share_QQ空间@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_QQ空间@2x.png"; sourceTree = "<group>"; };
+		65424D5B1CF15E280008255A /* share_微信@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_微信@2x.png"; sourceTree = "<group>"; };
+		65424D5C1CF15E280008255A /* share_微博@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_微博@2x.png"; sourceTree = "<group>"; };
+		65424D5D1CF15E280008255A /* share_朋友圈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_朋友圈@2x.png"; sourceTree = "<group>"; };
+		65424D631CF161210008255A /* share.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = share.pch; sourceTree = "<group>"; };
+		65424D681CF166D40008255A /* HXShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXShareManager.h; sourceTree = "<group>"; };
+		65424D691CF166D40008255A /* HXShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXShareManager.m; sourceTree = "<group>"; };
+		65424D6B1CF16B290008255A /* HXShareAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXShareAction.h; sourceTree = "<group>"; };
+		65424D6C1CF16B290008255A /* HXShareAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXShareAction.m; sourceTree = "<group>"; };
+		65424D6E1CF16B380008255A /* HXShareAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXShareAlert.h; sourceTree = "<group>"; };
+		65424D6F1CF16B380008255A /* HXShareAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXShareAlert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +159,10 @@
 		65424CFC1CF0CF8F0008255A /* HXUmengShareEncapsulation */ = {
 			isa = PBXGroup;
 			children = (
+				65424D641CF163EC0008255A /* Share */,
+				65424D581CF15E280008255A /* Images */,
 				65424D301CF0D1230008255A /* UMSocial_Sdk_5.2 */,
+				65424D631CF161210008255A /* share.pch */,
 				65424D001CF0CF8F0008255A /* AppDelegate.h */,
 				65424D011CF0CF8F0008255A /* AppDelegate.m */,
 				65424D031CF0CF8F0008255A /* ViewController.h */,
@@ -223,6 +246,31 @@
 				65424D491CF0D1230008255A /* UMSShareListController.xib */,
 			);
 			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		65424D581CF15E280008255A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				65424D591CF15E280008255A /* share_qq@2x.png */,
+				65424D5A1CF15E280008255A /* share_QQ空间@2x.png */,
+				65424D5B1CF15E280008255A /* share_微信@2x.png */,
+				65424D5C1CF15E280008255A /* share_微博@2x.png */,
+				65424D5D1CF15E280008255A /* share_朋友圈@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		65424D641CF163EC0008255A /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				65424D681CF166D40008255A /* HXShareManager.h */,
+				65424D691CF166D40008255A /* HXShareManager.m */,
+				65424D6B1CF16B290008255A /* HXShareAction.h */,
+				65424D6C1CF16B290008255A /* HXShareAction.m */,
+				65424D6E1CF16B380008255A /* HXShareAlert.h */,
+				65424D6F1CF16B380008255A /* HXShareAlert.m */,
+			);
+			name = Share;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,11 +383,16 @@
 				65424D4F1CF0D1230008255A /* UMSCommentDetailController.xib in Resources */,
 				65424D541CF0D1230008255A /* UMSLoginViewController.xib in Resources */,
 				65424D511CF0D1230008255A /* UMSCommentInputControlleriPad.xib in Resources */,
+				65424D5E1CF15E280008255A /* share_qq@2x.png in Resources */,
+				65424D621CF15E280008255A /* share_朋友圈@2x.png in Resources */,
 				65424D531CF0D1230008255A /* UMShareEditViewControlleriPad.xib in Resources */,
+				65424D611CF15E280008255A /* share_微博@2x.png in Resources */,
 				65424D0A1CF0CF8F0008255A /* Assets.xcassets in Resources */,
 				65424D4C1CF0D1230008255A /* UMSocialLocalizable.strings in Resources */,
+				65424D5F1CF15E280008255A /* share_QQ空间@2x.png in Resources */,
 				65424D081CF0CF8F0008255A /* Main.storyboard in Resources */,
 				65424D551CF0D1230008255A /* UMSnsAccountViewController.xib in Resources */,
+				65424D601CF15E280008255A /* share_微信@2x.png in Resources */,
 				65424D561CF0D1230008255A /* UMSShareListController.xib in Resources */,
 				65424D571CF0D1230008255A /* UMSocialSDKResourcesNew.bundle in Resources */,
 			);
@@ -366,7 +419,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65424D701CF16B380008255A /* HXShareAlert.m in Sources */,
+				65424D6D1CF16B290008255A /* HXShareAction.m in Sources */,
 				65424D051CF0CF8F0008255A /* ViewController.m in Sources */,
+				65424D6A1CF166D40008255A /* HXShareManager.m in Sources */,
 				65424D021CF0CF8F0008255A /* AppDelegate.m in Sources */,
 				65424CFF1CF0CF8F0008255A /* main.m in Sources */,
 			);
@@ -518,6 +574,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/asahiki/PersonalGit/HXUmengShareEncapsulation/HXUmengShareEncapsulation/share.pch;
 				INFOPLIST_FILE = HXUmengShareEncapsulation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -533,6 +591,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/asahiki/PersonalGit/HXUmengShareEncapsulation/HXUmengShareEncapsulation/share.pch;
 				INFOPLIST_FILE = HXUmengShareEncapsulation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

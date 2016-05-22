@@ -1,0 +1,25 @@
+//
+//  share.pch
+//  HXUmengShareEncapsulation
+//
+//  Created by Derek on 16/5/22.
+//  Copyright © 2016年 huangxu. All rights reserved.
+//
+
+#ifndef share_pch
+#define share_pch
+
+#import "UMSocial.h"
+
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+
+#ifdef DEBUG
+#   define Debug(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define Debug(...)
+#endif
+
+
+#endif /* share_pch */
