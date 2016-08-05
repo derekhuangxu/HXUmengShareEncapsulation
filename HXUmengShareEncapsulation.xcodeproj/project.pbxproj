@@ -263,14 +263,22 @@
 		65424D641CF163EC0008255A /* Share */ = {
 			isa = PBXGroup;
 			children = (
+				65424D741CF197F70008255A /* Views */,
 				65424D681CF166D40008255A /* HXShareManager.h */,
 				65424D691CF166D40008255A /* HXShareManager.m */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		65424D741CF197F70008255A /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				65424D6B1CF16B290008255A /* HXShareAction.h */,
 				65424D6C1CF16B290008255A /* HXShareAction.m */,
 				65424D6E1CF16B380008255A /* HXShareAlert.h */,
 				65424D6F1CF16B380008255A /* HXShareAlert.m */,
 			);
-			name = Share;
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -669,6 +677,7 @@
 				65424D291CF0CF8F0008255A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65424D2A1CF0CF8F0008255A /* Build configuration list for PBXNativeTarget "HXUmengShareEncapsulationTests" */ = {
 			isa = XCConfigurationList;
@@ -677,6 +686,7 @@
 				65424D2C1CF0CF8F0008255A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65424D2D1CF0CF8F0008255A /* Build configuration list for PBXNativeTarget "HXUmengShareEncapsulationUITests" */ = {
 			isa = XCConfigurationList;
@@ -685,6 +695,7 @@
 				65424D2F1CF0CF8F0008255A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
